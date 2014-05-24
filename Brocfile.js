@@ -5,6 +5,11 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var app = new EmberApp({
   name: require('./package.json').name,
 
+  minifyCSS: {
+    enabled: true,
+    options: {}
+  },
+
   getEnvJSON: require('./config/environment')
 });
 
@@ -27,7 +32,6 @@ app.import('vendor/ic-ajax/dist/named-amd/main.js', {
     'request',
   ]
 });
-
 
 
 module.exports = app.toTree();
