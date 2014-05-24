@@ -1,0 +1,10 @@
+1. ember new project
+
+2. Add dependencies:
+    bower install bootstrap-sass-official --save
+    bower install elasticsearch --save
+
+3. Add to Brockfile.js
+    app.import('vendor/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js');
+    app.import('vendor/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js');
+    app.import('vendor/elasticsearch/elasticsearch.js');
