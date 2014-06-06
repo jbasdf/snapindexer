@@ -1,0 +1,61 @@
+{
+  "_index": "products",
+  "_type": "product",
+  "_id": "GGHz6XHmQJyc7mLwKboTvw",
+  "_version": 6,
+  "exists": true,
+  "_source": {
+    "amount_price_change": 0,
+    "bottom_line": null,
+    "brand_logo_image": "",
+    "brand_name": "Neil Pryde",
+    "brand_page_link": "",
+    "buy_link": "http://www.avantlink.com/click.php?p=153863&pw=37705&pt=3&pri=294319&tt=df",
+    "category": "Bikes",
+    "created_at": null,
+    "current_price": 1799,
+    "data_feed_id": 216,
+    "deal_at": null,
+    "deleted_at": null,
+    "description": "The Neil Pryde Alize road bike is the perfect all-around racer. Featuring an aerodynamic, stiff and responsive build, the Alize carried the UnitedHealthcare Pro Cycling team to over 90 podiums in 2013. Features carbon fiber headset cups and front/rear dropouts. PU molding in head tube and bottom bracket shell make for a high tolerance control of wall thicknessBike Type: road Wheel Size: 700c Year Model: 2013 Size: 2XL (60cm) Frame: C6.7 Toray UD Fork: C6.7 Toray UD tapered Headset: integrated Stem: NeilPryde AL Matrix  Handlebars: NeilPryde AL Matrix Brakes: FSA Gossamer Brake Levers: Shimano 105 Front Derailleur: Shimano 105 Rear Derailleur: Shimano 105 Shift Levers: Shimano 105 Cassette: Shimano 105 11-25T Crankset: FSA Gossamer 50/34T Bottom Bracket: FSA PF30 Pedals: N/A Wheels: Mavic Aksium  Hubs: Mavic Aksium Saddle: NeilPryde Race Seatpost: NeilPryde Aeroblade CFGeometry: Head-Tube Length: N/A Seat Tube Length: 60 cm Top Tube Length: N/A Chainstay Length: 40.5 cm BB Drop: 70 mm Seat-Tube Angle: 73D Head-Tube Angle: 73D Fork Rake: 45mm Wheelbase: N/AColor: flat black NewBike ships unassembled. For your safety, we recommend that you have a professional bicycle mechanic assemble this bike.",
+    "friendly_id": "2013-Neil-Pryde-Alize-Carbon-Road-Bike-Shimano-105-2XL--60cm--276-114-0005",
+    "group": "",
+    "image": "http://i2.avlws.com/2181/s294319.png",
+    "image_url": "http://i2.avlws.com/2181/l294319.png",
+    "keywords": "",
+    "manufacturer_id": "Neil Pryde",
+    "medium_image_url": "http://i2.avlws.com/2181/m294319.png",
+    "merchant_id": 12121,
+    "merchant_image_link": "<a href=\"http://www.avantlink.com/click.php?tt=ml&ti=267905&pw=37705\"><img src=\"http://www.avantlink.com/gbi/12121/267905/28861/37705/image.gif\" width=\"120\" height=\"60\" style=\"border: 0px;\" alt=\"\" /></a>",
+    "merchant_name": "Bikewagon",
+    "name": "2013 Neil Pryde Alize Carbon Road Bike Shimano 105 2XL (60cm)",
+    "on_sale": false,
+    "percent_discount": 0,
+    "percent_price_change": 0,
+    "price_changed_at": "2014-06-05T19:12:24Z",
+    "price_history_at": null,
+    "retail_price": 1799,
+    "retail_prices": [
+      {
+        "price": 1799,
+        "created_at": "2014-06-06T15:39:59Z"
+      }
+    ],
+    "reviews": "",
+    "sale_price": 1799,
+    "sale_prices": [
+      {
+        "price": 1799,
+        "created_at": "2014-06-06T15:39:59Z"
+      }
+    ],
+    "sizing_chart_url": null,
+    "sku": "276-114-0005",
+    "subcategory": "Road Bikes",
+    "summary": "",
+    "thumb_url": "http://i2.avlws.com/2181/s294319.png",
+    "upc": "",
+    "updated_at": null,
+    "url": "http://www.avantlink.com/click.php?tt=app&ti=1019&pw=37705&mi=12121&df=216&pri="
+  }
+}
