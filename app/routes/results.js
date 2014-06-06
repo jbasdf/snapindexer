@@ -12,10 +12,10 @@ export default Ember.Route.extend({
     //
     // Search everything
     //
-    // return esClient.search({
-    //   index: 'products',
-    //   q: query
-    // });
+    return esClient.search({
+      index: 'products',
+      q: query
+    });
 
     //
     // Search just names
@@ -89,6 +89,17 @@ export default Ember.Route.extend({
         filter['and'].push({term: term });
       }
     }
+
+    // Filter by range
+    // filter.range= {
+    //   percent_discount: {
+    //     gte: 10
+    //   }
+    // };
+
+    // filter.missing = {
+    //   field: 'deleted_at'
+    // };
 
     body = {
       query: {
