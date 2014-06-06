@@ -1,5 +1,3 @@
-import esClient from '../helpers/elasticsearch_client';
-
 export default Ember.ObjectController.extend({
 
   setPrices: function(){
