@@ -6,9 +6,6 @@
   <div class="content">
     <div class="main">
       <div class="image">
-        <img {{bind-attr alt=name src=image}} />
-      </div>
-      <div class="linked_image">
         {{#link-to 'result' this}}
           <img {{bind-attr alt=name src=image}} />
         {{/link-to}}

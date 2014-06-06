@@ -80,7 +80,7 @@ export default Ember.Route.extend({
     //
     var filter = {};
 
-    if(options.length > 2){
+    if(options.length > 2 && options[2].length > 0){
       filter['and'] = [];
       for(var i = 2;i<options.length; i++){
         var parts = options[i].split(':');

@@ -1,9 +1,31 @@
 Resources
+
+Repository
+https://github.com/jbasdf/snapindexer
+
+Nginx ES
+https://github.com/jbasdf/nginx_es
+
 Ember CLI
 http://iamstef.net/ember-cli/
 
 Elastic Search API
 http://www.elasticsearch.org/guide/en/elasticsearch/client/javascript-api/current/api-reference.html
+
+Filtered Query
+http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-filtered-query.html
+
+Terms Filter
+http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-terms-filter.html
+
+Facets
+http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-facets-terms-facet.html#search-facets-terms-facet
+
+Suggestors
+http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.x/search-suggesters.html
+
+More like this:
+http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.x/search-more-like-this.html
 
 
 #

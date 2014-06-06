@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="product">
+    <h1><a {{bind-attr href=url}} class="url" target="_blank">{{ name }}</a></h1>
+    <div class="clear"></div>
+    <div>
+      <div class="product_content">
+        <a {{bind-attr href=buy_link}} class="url" target="_blank">
+          <img {{bind-attr alt=name src=image_url}} />
+        </a>
+        {{description}}
+        <div class="clear"></div>
+        <div class="price_block">
+          <div class="retail-price">Retail Price: ${{retail_price}}</div>
+          <div class="sale-price">Current Price: ${{sale_price}}</div>
+          {{#if on_sale}}
+            <div>Save: <span class="price discount">{{ percent_discount }}%</span></div>
+          {{/if}}
+          <a {{bind-attr href=buy_link}} class="btn btn-primary" target="_blank">
+            Buy It Now!
+          </a>
+        </div>
+        <div class="social_container">
+          <div class="social">
+            <div class="fb-like" {{bind-attr data-href=buy_link}} data-send="true" data-layout="button_count" data-width="150" data-show-faces="false"></div>
+          </div>
+          <div class="social">
+            <a href="https://twitter.com/share" class="twitter-share-button" {{bind-attr data-url=buy_link data-text=name}} data-via="snapindexer" data-lang="en" data-related="snapindexer" data-hashtags="snapindexer">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="pricing" style="display:none;">
+      <h2>Price History</h2>
+      <table>
+        <tr><td>Low Price: </td><td>{{low}}</td></tr>
+        <tr><td>High Price: </td><td>{{high}}</td></tr>
+      </table>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="related">
+      <h2>Related Stuff: </h2>
+      <div class="clear grid_container">
+        {{#each recommendation in recommendations}}
+          {{render "recommendation" recommendation}}
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>

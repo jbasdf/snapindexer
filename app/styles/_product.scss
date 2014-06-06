@@ -1,0 +1,57 @@
+.product{
+  margin:20px;
+  position:relative;
+  .social_container{
+    float:right;
+    .social{
+      float:right;
+    }
+  }
+  .product_content{
+    img{
+      float:left;
+      margin:0 10px 10px 0;
+    }
+    .price_block{
+      text-align: center;
+    }
+  }
+  .pricing{
+    margin:35px 0;
+    .left{
+      width:180px;
+      float:left;
+    }
+    .right{
+      width:730px;
+      float:right;
+      #price-history{
+        width:600px;
+        height:150px;
+        margin:0 auto;
+      }
+    }
+  }
+  .related{
+    margin:0;
+    .grid_container{
+      margin:0 20px;
+    }
+  }
+  h1{
+    margin:10px 0 10px 0;
+    font-size:28px;
+    line-height: 26px;
+    text-align: center;
+  }
+  h2{
+    font-size:20px;
+    color:$concrete;
+    border-bottom: solid 1px $concrete;
+  }
+  .pricing{
+    h3{
+      margin:0;
+    }
+  }
+}
