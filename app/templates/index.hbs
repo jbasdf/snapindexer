@@ -1,0 +1,37 @@
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Killer Gear</h3>
+          <ul class="nav masthead-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">Shop all the gear you love in one spot.</h1>
+        <p class="lead">More than 1 million pieces of gear just waiting for you to explore our amazing world.</p>
+        <p class="lead">
+          <form {{action 'search' on="submit"}} class="form-inline home-search" role="form">
+            <div class="form-group">
+              <label class="sr-only" for="search">Search</label>
+              {{input type="search" id="search" classBinding=":form-control" value=query placeholder="Search for Gear"}}
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Search powered by <a href="http://www.gearsnyper.com">gearsnyper</a>.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+

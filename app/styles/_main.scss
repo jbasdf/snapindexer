@@ -1,0 +1,30 @@
+@import "vendor/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+@import "cover";
+@import "results";
+
+body.home {
+  background: url('/images/backgrounds/SnowCanyon.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+  .ember-view{
+    height: 100%;
+  }
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.home-search{
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  .form-group{
+    width: 88%;
+  }
+  #search{
+    width: 100%;
+  }
+}

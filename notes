@@ -1,10 +1,87 @@
+Resources
+Ember CLI
+http://iamstef.net/ember-cli/
+
+Elastic Search API
+http://www.elasticsearch.org/guide/en/elasticsearch/client/javascript-api/current/api-reference.html
+
+
+#
+# Setup project
+#
+
 1. ember new project
 
 2. Add dependencies:
     bower install bootstrap-sass-official --save
     bower install elasticsearch --save
 
-3. Add to Brockfile.js
+3. Add to Brocfile.js
     app.import('vendor/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js');
     app.import('vendor/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js');
     app.import('vendor/elasticsearch/elasticsearch.js');
+
+#
+# Setup styling
+#
+
+1. Setup bootstrap
+    Copy your favorite bootstrap template into index.html
+    Use the css and js links from the ember generated template
+
+2. Add cover.scss
+
+3. Modify cover.scss using css in app.scss
+
+
+#
+# Setup Home page
+#
+
+1. Add test to acceptance/index-test.js
+
+2. Add activate/deactivate to routes/index.js
+
+3. Add to router.js
+
+  this.route("results", { path: '/results/:query' });
+
+4. Add controllers/index.js
+   This takes the query and passes it off to the search route
+
+
+#
+# Setup the results page
+#
+
+1. Add test for results
+
+2. Add results to router.js
+
+3. Add results.js route.
+
+4. Add results.js controller.
+
+5. Add results.hbs
+  Add _hit.hbs
+
+6. Test different queries
+
+7. Add facets
+
+
+#
+# Global search
+#
+
+1. Refactor search action into mixin
+2. Extend index.js and application.js with Search
+
+
+#
+# Add result page
+#
+
+1. Add test for result
+
+2. Add 

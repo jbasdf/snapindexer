@@ -1,0 +1,79 @@
+$white: #fff;
+
+// Flat UI
+$clouds_light: #ecf0f5;
+$clouds: #ECF0F1;
+$silver: #BDC3C7;
+
+$asbestos: #7F8C8D;
+$concrete: #95A5A6;
+
+$midnight_blue: #2C3E50;
+$wet_asphalt: #34495E;
+
+$peter_river: #3498DB;
+$belize_hole: #2980B9;
+
+$sun_flower: #F1C40F;
+$orange: #F39C12;
+
+$carrot: #E67E22;
+$pumpkin: #D35400;
+
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+
+$turquoise: #1ABC9C;
+$green_sea: #16A085;
+
+$emerald: #2ecc71;
+$nephritis: #27ae60;
+
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+
+// Brown UI
+$almost_black:                    #2F2922;
+$brown:                           #443B31;
+
+$red: #c2070a;
+$red_light: #c2070a;
+
+// Colors for main
+$btn_color: $white !default;
+
+$input_border: $silver !default;
+
+$slider_background: $silver !default;
+$slider_border: $clouds !default;
+
+$result_border: $asbestos !default;
+$result_text: $asbestos !default;
+
+$border_color: $silver !default;
+
+
+
+$tag_width:75px;
+$tag_right:-10px;
+$tag_bottom:22px;
+
+$result_width:198px;
+$result_height:170px;
+$result_header_height:56px;
+$result_padding:10px;
+$result_border_width: 2px;
+
+$result_full_width:425px;
+$result_full_height:204px;
+$result_full_header_height:20px;
+$result_main_width:$result_width - ((2 * $result_padding) + $result_border_width);
+
+$slider_height: 30px;
+$slider_button_dim: 24px;
+$slider_text_width:70px;
+
+$font_size: 14px;
+
+$text_color: $midnight_blue;
+$background_color: $white;

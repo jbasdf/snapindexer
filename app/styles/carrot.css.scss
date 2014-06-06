@@ -1,0 +1,16 @@
+@import 'defines';
+
+
+// Colors for main
+$btn_background_color: $carrot;
+$btn_background_color_highlight: $pumpkin;
+
+$input_border: $carrot;
+
+$slider_background: $carrot;
+
+$border_color: $carrot;
+
+$result_border: $pumpkin;
+
+@import 'main';

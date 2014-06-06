@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div id="price_slider" class="refine_block" style="display:none;">
+        <div class="slider">
+          <div id="slider_min"></div>
+          <div class="slider_scale">
+            <div id="slider_min_btn" class="slider_button"></div>
+            <div id="slider_max_btn" class="slider_button"></div>
+          </div>
+          <div id="slider_max"></div>
+        </div>
+      </div>
+      <div id="sort" class="refine_block">
+        {{view Ember.Select viewName="select"
+          content=sortOptions
+          selection=sortBy
+          optionLabelPath="content.label"
+          optionValuePath="content.value"
+          prompt="Sort by:"}}
+      </div>
+      <div id="facets" class="refine_block">
+        {{#each facet in facets}}
+          <h4>{{facet.name}}</h4>
+          <ul class="list-group">
+            {{#each facet.terms}}
+              <li class="list-group-item"><a {{action "facet" facet term}}>{{term}}</a><span class="badge">{{count}}</span></li>
+            {{/each}}
+          </ul>
+        {{/each}}
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div id="results_container">
+        <div id="results">
+          {{#each hits}}
+            {{partial "hit"}}
+          {{/each}}
+        </div>
+        <div id="more_results_container">
+          <button id="more_results" class="btn">More Results</button>
+        </div>
+        <div id="no_more_results_container">
+          <p>No More Results</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
