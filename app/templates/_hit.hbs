@@ -6,7 +6,7 @@
   <div class="content">
     <div class="main">
       <div class="image">
-        {{#link-to 'result' this}}
+        {{#link-to 'result' this.id}}
           <img {{bind-attr alt=name src=image}} />
         {{/link-to}}
       </div>
