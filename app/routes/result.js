@@ -4,7 +4,7 @@ export default Ember.Route.extend({
 
   model: function(params){
 
-    var m =  Ember.ObjectProxy.create();
+    var product = Ember.ObjectProxy.create();
     esClient.get({
       index: 'products',
       type: 'product',
@@ -13,7 +13,7 @@ export default Ember.Route.extend({
       var content = response._source;
       content.id = response._id;
       content.recommendations = Ember.ArrayProxy.create();
-      m.set('content', content);
+      product.set('content', content);
 
       esClient.mlt({
         index: 'products',
@@ -31,7 +31,7 @@ export default Ember.Route.extend({
         content.recommendations.set('content', hits);
       });
     });
-    return m;
+    return product;
   }
 
 });
